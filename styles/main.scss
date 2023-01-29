@@ -1,3 +1,27 @@
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+
+// Default variable overrides
+$body-bg: rgb(249, 248, 248);
+$body-color: rgb(42, 42, 42);
+$primary:#3AA43F;
+$success: #3AA43F;
+// Required
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+// Optional Bootstrap components here
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+
+// * Body
+body {
+  padding-top: 50px;
+}
+// * Body
 // * Scroll behavior
 html{
     scroll-behavior: smooth;
@@ -36,3 +60,39 @@ html{
     }
   }
 // * Loader: For smooth animation after loading
+
+// * Button Group
+#submitBtn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+// * Button Group
+
+// * Map Responsiveness
+.map-responsive{
+
+  overflow:hidden;
+
+  padding-bottom:56.25%;
+
+  position:relative;
+
+  height:0;
+
+}
+
+.map-responsive iframe{
+
+  left:0;
+
+  top:0;
+
+  height:100%;
+
+  width:100%;
+
+  position:absolute;
+
+}
+// * Map Responsiveness
