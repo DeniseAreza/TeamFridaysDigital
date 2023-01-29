@@ -17,15 +17,11 @@ $success: #3AA43F;
 @import "../node_modules/bootstrap/scss/reboot";
 @import "../node_modules/bootstrap/scss/type";
 
-// * Body
-body {
-  padding-top: 50px;
-}
-// * Body
 // * Scroll behavior
 html{
     scroll-behavior: smooth;
     background-color: #fefefe;
+    scroll-padding-top: 20%;
   }
 // * Scroll behavior
 

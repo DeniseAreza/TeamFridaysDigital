@@ -695,13 +695,10 @@ progress {
   content: "— ";
 }
 
-body {
-  padding-top: 50px;
-}
-
 html {
   scroll-behavior: smooth;
   background-color: #fefefe;
+  scroll-padding-top: 20%;
 }
 
 .animate {
